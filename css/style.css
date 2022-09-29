@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+* {
+  font-family: 'Lobster', cursive;
+  color: white;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.black-cover {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: -1;
+    background-color: black;
+    opacity: 0.3;
+}
+.hidden {
+    display: none;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: -2;
+}
+
+
+
+input {
+    border: none;
+    background-color: transparent;
+    
+}
+
+input:focus {
+  outline: none;
+}
+
+input::placeholder {
+    color: white;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+}
+
+#clock {
+    font-size: 120px;
+    margin: 0px;
+}
+
+#weather {
+    font-size: 25px;
+}
+
+
+h1 {
+    font-size: 50px;
+    margin: 0px;
+}
+
+ul {
+    list-style: none;
+    font-size:20px;
+    position: relative;
+    left: -105px;
+}
+
+#todo-form input {
+    width: auto;
+    height: 30px;
+    font-size: 25px;
+}
+
+#todo-form input::placeholder {
+    font-size: 25px;
+}
+    
+
+#quote {
+    position: absolute;
+    bottom: 25px;
+    font-size: 20px;
+}
